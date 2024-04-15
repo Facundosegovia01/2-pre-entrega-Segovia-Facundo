@@ -231,7 +231,7 @@ button:hover {
     text-align: center;
 }
 
-.cambiaovende .art-cambiaovende h1 {
+.cambiaovende .art-cambiaovende h2 {
     font-size: 50px;
     margin-bottom: 50px;
     color: white;
@@ -250,12 +250,7 @@ button:hover {
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
         transform: translateY(-3%); }
 
-       
-        
-        
-    
-
-
+ 
 /* cards index */
 .cardcontainer {
     display: grid;
@@ -323,6 +318,73 @@ button:hover {
         color: black;
     }
 
+/* card financia */
+
+.financia {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.financia,.img-financia {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    }
+
+   .art-financia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fff;
+    cursor: default;
+   }
+
+
+   .financia .art-financia a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    justify-content: center;
+   }
+
+    .financia .art-financia a:hover {
+        background-color: #2fb4cc;
+        color: #fff;
+    }
+
+   .financia .art-financia{
+    padding: 15px;
+    text-align: center;
+}
+
+.financia .art-financia h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.financia .art-financia p {
+    line-height: 1.5;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+ }
+
+ .img-financia {
+    display: flex;
+    align-items: end;
+ }
+
 /* imgindex */
 
 .imgauto {
@@ -383,42 +445,29 @@ header {
 
 /* about */
 
-.about-text h2 { 
+.tituloabout {
     display: flex;
-    justify-content:flex-start;
-    margin-bottom: 20px;
+    justify-content: center;
+    font-size: 55px;
+    margin-top: 40px;
 
 }
-.about-text p {
+
+.info {
+    padding: 10%;
+    background-color: #242422;
+}
+.info h2 {
     display: flex;
-    justify-content:flex-start;
-    margin-top: 20px;
+    justify-content: flex-start;
+    font-size: 40px;
+    margin: 30px;
 }
 
-/* about     */ 
-
-.card-text {
-    color: #000;
-}
-.card  {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    margin-top: 170px;
-    
-}
-.btn btn-primary {
-    background-color: #2fb4cc;
-}
-
-.imgabout img {
-    object-fit: cover;
-    height: 300px;
-    width: 100%;
-}
-.tituloabout  {
-    text-align: center;
-    font-size: 50px;
-    
+.info p {
+    display: flex;
+    margin: 30px;
+  text-align: justify;
 }
 
 /* productos */
@@ -438,6 +487,8 @@ header {
     .img-cambia-vende img{
         display:none;
      }
-  
+  .img-financia img{
+    display: none;
+  }
 }
 
