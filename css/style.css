@@ -14,11 +14,11 @@
     font-size: bold;
 }
 .body {
- font-family: 'Open Sans';
+font-family: 'Open Sans';
     background-color: #242422;
 }
 h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p
- {
+{
     color:#ffffff;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p
     font-size: 35px;
 }
 .login
- {
+{
     margin-top: 150px;
     display: flex;
     align-items: center;
@@ -178,10 +178,10 @@ button:hover {
 .tituloindex h2 {
     display: flex;
     justify-content:center;
-   margin-top: 100px;
-   margin-bottom: 50px;
-   font-size: 50px;
-  color: #fff;
+margin-top: 100px;
+margin-bottom: 50px;
+font-size: 50px;
+color: #fff;
 }
 .tituloindex p {
     display: flex;
@@ -196,10 +196,10 @@ button:hover {
 }
  /* card vende tu auto */
 .cambiaovende {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 20px;
-  gap: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+padding: 20px;
+gap: 20px;
 }
 
 
@@ -209,18 +209,18 @@ button:hover {
     background-color: #2fb4cc;
     }
 
-   .art-cambiaovende {
+.art-cambiaovende {
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
     background-color: #2fb4cc;
     cursor: default;
-   
-   }
+
+}
 
 
-   .cambiaovende .art-cambiaovende a {
+.cambiaovende .art-cambiaovende a {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -231,14 +231,14 @@ button:hover {
     border-radius: 4px;
     transition: all 400ms ease;
     justify-content: center;
-   }
+}
 
     .cambiaovende .art-cambiaovende a:hover {
         background-color: #544c54;
         color: #fff;
 
 }
-   .cambiaovende .art-cambiaovende{
+.cambiaovende .art-cambiaovende{
     padding: 15px;
     text-align: center;
 }
@@ -254,15 +254,15 @@ button:hover {
     color:white;
     font-size: 25px;
     margin-bottom: 50px;
- }
+}
 
-   
+
 
     .cambiaovende:hover {
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
         transform: translateY(-3%); }
 
- 
+
 /* cards index */
 .cardcontainer {
     display: grid;
@@ -346,17 +346,17 @@ button:hover {
     background-color: #fff;
     }
 
-   .art-financia {
+.art-financia {
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
     background-color: #fff;
     cursor: default;
-   }
+}
 
 
-   .financia .art-financia a {
+.financia .art-financia a {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -367,14 +367,14 @@ button:hover {
     border-radius: 4px;
     transition: all 400ms ease;
     justify-content: center;
-   }
+}
 
     .financia .art-financia a:hover {
         background-color: #2fb4cc;
         color: #fff;
     }
 
-   .financia .art-financia{
+.financia .art-financia{
     padding: 15px;
     text-align: center;
 }
@@ -390,12 +390,12 @@ button:hover {
     color: black;
     font-size: 25px;
     margin-bottom: 50px;
- }
+}
 
- .img-financia {
+.img-financia {
     display: flex;
     align-items: end;
- }
+}
 
 /* imgindex */
 
@@ -410,7 +410,7 @@ button:hover {
 .imgindex {
     display: flex;
     flex-wrap: wrap; 
-   justify-content: center;
+justify-content: center;
 }
 
 
@@ -512,10 +512,10 @@ header {
 {
     .img-cambia-vende img{
         display:none;
-     }
-  .img-financia img{
+    }
+.img-financia img{
     display: none;
-  }
+}
 }
 
 /* contacto */
