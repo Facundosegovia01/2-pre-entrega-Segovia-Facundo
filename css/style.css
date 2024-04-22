@@ -27,7 +27,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p
 
 /* login */
 
-.titulologin h1 {
+.titulo-login h1 {
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -264,14 +264,14 @@ gap: 20px;
 
 
 /* cards index */
-.cardcontainer {
+.card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px;
     gap: 20px;
 }
 
-.car {
+.cardsInfoAuto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,32 +283,32 @@ gap: 20px;
     transition: all 400ms ease;
 }
 
-.car img {
+.cardsInfoAuto img {
     width: 100%;
     height: 210px;
     object-fit: cover;
 }
 
-.car div {
+.cardsInfoAuto div {
     padding: 20px;
     background-color: #fff;
 }
 
 
 
-.car .contenidocard {
+.cardsInfoAuto .contenido-card {
     padding: 15px;
     text-align: center;
 }
-.car .contenidocard p {
+.cardsInfoAuto .contenido-card p {
     line-height: 1.5;
     color: #6a6a6a; }
 
-    .car .contenidocard h3 {
+    .cardsInfoAuto .contenido-card h3 {
         font-weight: 400px;
         margin-bottom: 15px;
     }
-    .car .contenidocard a {
+    .cardsInfoAuto .contenido-card a {
         text-decoration: none;
         display: inline-block;
         padding: 10px;
@@ -318,14 +318,14 @@ gap: 20px;
         border-radius: 4px;
         transition: all 400ms ease;
     }
-    .car .contenidocard a:hover {
+    .cardsInfoAuto .contenido-card a:hover {
         background-color: #2fb4cc;
         color: #fff;
     }
-    .car:hover {
+    .cardsInfoAuto:hover {
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
         transform: translateY(-3%); }
-    .car .contenidocard h3 {
+    .cardsInfoAuto .contenido-card h3 {
         font-size: 30px;
         color: black;
     }
@@ -465,16 +465,13 @@ header {
 
 }
 
-.info {
-    padding: 10%;
-    background-color: #242422;
-}
-.info h2 {
+
+.info h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    margin: 30px;
+    margin: 20px;
     color: #fff;
 }
 
@@ -494,12 +491,11 @@ header {
 .info p {
     padding: 20px;
     text-align: center;
-    
 }
 
 /* productos */
 
-.tituloproducto h1 {
+.titulo-producto h1 {
     color: #fff;
     display: flex;
     justify-content: center;
