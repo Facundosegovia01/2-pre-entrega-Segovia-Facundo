@@ -175,7 +175,7 @@ button:hover {
 }
 /* index */
 
-.tituloindex h2 {
+.titulo-index h2 {
     display: flex;
     justify-content:center;
 margin-top: 100px;
@@ -183,19 +183,19 @@ margin-bottom: 50px;
 font-size: 50px;
 color: #fff;
 }
-.tituloindex p {
+.titulo-index p {
     display: flex;
     font-size: 20px;
     justify-content: flex-start;
     margin-top: 20px;
 }
-.tituloindex h2:hover {
+.titulo-index h2:hover {
     transform:scale(0.6);
     transition: 0.5s;
 
 }
  /* card vende tu auto */
-.cambiaovende {
+.cambia-vende {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 padding: 20px;
@@ -203,13 +203,13 @@ gap: 20px;
 }
 
 
-.cambiaovende,.img-cambia-vende {
+.cambia-vende,.img-cambia-vende {
     display: flex;
     justify-content: flex-end;
     background-color: #2fb4cc;
     }
 
-.art-cambiaovende {
+.art-cambia-vende {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,7 +220,7 @@ gap: 20px;
 }
 
 
-.cambiaovende .art-cambiaovende a {
+.cambia-vende .art-cambia-vende a {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -233,23 +233,23 @@ gap: 20px;
     justify-content: center;
 }
 
-    .cambiaovende .art-cambiaovende a:hover {
+    .cambia-vende .art-cambia-vende a:hover {
         background-color: #544c54;
         color: #fff;
 
 }
-.cambiaovende .art-cambiaovende{
+.cambia-vende .art-cambia-vende{
     padding: 15px;
     text-align: center;
 }
 
-.cambiaovende .art-cambiaovende h2 {
+.cambia-vende .art-cambia-vende h2 {
     font-size: 50px;
     margin-bottom: 50px;
     color: white;
 }
 
-.cambiaovende .art-cambiaovende p {
+.cambia-vende .art-cambia-vende p {
     line-height: 1.5;
     color:white;
     font-size: 25px;
@@ -258,7 +258,7 @@ gap: 20px;
 
 
 
-    .cambiaovende:hover {
+    .cambia-vende:hover {
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
         transform: translateY(-3%); }
 
